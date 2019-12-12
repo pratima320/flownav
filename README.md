@@ -1,5 +1,6 @@
-# Usecase and Steps:
-A common use case: A Single screen flow always shows ‘Next’ instead of ‘Finish’ if it has any other element connected to it(even if they are not screen). Out of the box, the button text can be changed.
+# Use Case and Steps:
+A common use case:
+  A Single screen flow always shows ‘Next’ instead of ‘Finish’ if it has any other element connected to it(even if they are not screen).   Out of the box, the button text can be changed.
 I found this component in Salesforce Document and made some edits.
 Here is how you can use it:
   1. Install the component.
