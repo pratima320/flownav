@@ -1,3 +1,20 @@
+# Usecase and Steps:
+A common use case: A Single screen flow always shows ‘Next’ instead of ‘Finish’ if it has any other element connected to it(even if they are not screen). Out of the box, the button text can be changed.
+I found this component in Salesforce Document and made some edits.
+Here is how you can use it:
+  1. Install the component.
+  2. Under the Screen Properties inside the flow, deselect the 'Show Footer'under Control Navigation. This will hide the standard navigation.
+  3. Drag and drop this component.
+  4. Provide the input variables with the text of your choice.
+     For eg, You want to change Next to Finish - Provide a value 'Finish' to 'Label for Next Button' input. Thats all. Run in debug mode to see your changes.
+
+    ***Note: This requires lightning runtime enabled for Flows.
+
+
+
+
+
+
 # Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
